@@ -581,6 +581,25 @@ body {
         top: -7px;
     }
 
+
+
+    #banner {
+        width: 100%;
+        height: 100vh;
+        display: flex; 
+           
+    }
+    #banner {
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        
+        
+    }
+
     
 
 
@@ -724,6 +743,24 @@ body {
     #nav.active #hamburger::after {
         transform: rotate(-135deg);
         top: -7px;
+    }
+
+
+    #banner {
+        width: 100%;
+        height: 100vh;
+        display: flex; 
+           
+    }
+    #banner {
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        
+        
     }
 
     
