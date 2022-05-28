@@ -619,10 +619,10 @@ body {
         display: flex;
         align-items: center;
         justify-content: left;
-        background-size: 100% cover;
+        background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-position: center;
+        /* background-position: center; */
         background-position-x: 80%;
     }
 
@@ -778,7 +778,7 @@ body {
 
 
     #banner {
-        width: 100%;
+        max-width: 100%;
         height: 100vh;
         display: flex;
 
@@ -786,15 +786,10 @@ body {
 
     #banner .banner-content {
         width: 100%;
-        height: 100%;
         display: flex;
-        align-items: center;
-        justify-content: left;
-        background-size: 100% cover;
-        background-repeat: no-repeat;
+        flex-direction: row;
         background-attachment: fixed;
-        background-position: center;
-        background-position-x: 80%;
+        
 
 
     }
