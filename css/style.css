@@ -525,7 +525,7 @@ body {
 
 /* Responsividade */
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
 
 
     #menu {
@@ -699,7 +699,7 @@ body {
 
 
 
-}
+} */
 
 
 
@@ -785,9 +785,9 @@ body {
         height: 100vh;
         display: flex;
         background-attachment: fixed;
-        background-size: cover;
+        /* background-size: cover; */
         background-image: url('../assets/images/banner-smartphone.jpg');
-        background-position: center center;
+        /* background-position: center center; */
 
 
     }
