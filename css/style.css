@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap'); /* font-family: 'Love Light', cursive; */
-@import url('https://fonts.googleapis.com/css2?family=Love+Light&family=Roboto:wght@300;400;700&display=swap'); /*font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+/* font-family: 'Love Light', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&family=Roboto:wght@300;400;700&display=swap');
+/*font-family: 'Roboto', sans-serif; */
 
 /* <a href="https://br.freepik.com/fotos-vetores-gratis/floral">Floral foto criado por rawpixel.com - br.freepik.com</a>*/
 
@@ -17,14 +19,14 @@ html {
 }
 
 body {
-   background-color:#ede8ec;
-   
+    background-color: #ede8ec;
+
 }
 
 .container {
     width: 100%;
     box-sizing: border-box;
-    
+
 }
 
 
@@ -33,26 +35,27 @@ body {
 
 
 .header {
-    
+
     box-sizing: border-box;
     width: 100%;
     height: 70px;
     padding: 1rem;
     display: flex;
-    justify-content: space-between; ;
+    justify-content: space-between;
+    ;
     align-items: center;
     background-color: white;
-    
+
 }
 
 #logo h3 {
     display: flex;
     align-items: center;
-    width: 173px; 
+    width: 173px;
     height: 70px;
-    padding-left: 20px; 
+    padding-left: 20px;
     font-family: 'Roboto', sans-serif;
-    font-size: 2rem;  
+    font-size: 2rem;
 }
 
 
@@ -66,7 +69,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     color: rgb(78, 76, 76);
-   
+
 
 }
 
@@ -74,7 +77,7 @@ body {
     color: rgb(223, 97, 145);
     border-bottom: 1px solid currentColor;
     transition: .5s;
-   
+
 }
 
 #menu {
@@ -100,9 +103,10 @@ body {
 #banner {
     width: 100%;
     height: 100vh;
-    display: flex; 
-       
+    display: flex;
+
 }
+
 #banner .banner-content {
     width: 100%;
     height: 100%;
@@ -111,7 +115,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-image: url("../assets/images/teste-bg.jpg");
-    
+
 }
 
 .content-text1 {
@@ -120,17 +124,19 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 40px 60px 0px 30px;  
+    padding: 40px 60px 0px 30px;
     width: 700px;
     height: 100%;
 
 }
+
 .content-text1 h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
     font-weight: 600;
     color: black;
 }
+
 .content-text1 p {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -154,16 +160,16 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    
+
 }
 
 
 
-.content-text{
+.content-text {
     max-width: 50%;
     margin: 20px;
     padding: 20px;
-    
+
 }
 
 .content-text h2 {
@@ -171,10 +177,11 @@ body {
     font-size: 50px;
     font-weight: 600;
     color: black;
-     
-       
-    
+
+
+
 }
+
 .content-text h3 {
     font-family: 'Love Light', cursive;
     font-size: 40px;
@@ -187,12 +194,12 @@ body {
 .content-text p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    font-style:italic;
+    font-style: italic;
     font-weight: 400;
     color: rgb(78, 76, 76);
     padding-bottom: 10px;
     text-align: justify;
-    
+
 }
 
 .btn-consulta {
@@ -207,10 +214,11 @@ body {
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    
+
 }
+
 .btn-consulta:hover {
-    background-color:rgba(78, 76, 76, 0.5);
+    background-color: rgba(78, 76, 76, 0.5);
     color: white;
     width: 260px;
     transition: .5s;
@@ -218,23 +226,23 @@ body {
 
 .btnConsulta {
     text-align: center;
-   
+
 }
 
 
 .img-wraper {
-    
+
     width: 500px;
     margin: 20px;
-    
-    
+
+
 }
 
 .img-wraper img {
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
-    
+
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
 }
 
@@ -254,7 +262,7 @@ body {
 
 .procedures {
     background-image: url('../assets/images/bg_parallax.jpg');
-    
+
 }
 
 .procedures h2 {
@@ -279,6 +287,7 @@ body {
 .procedures-grid-item {
     margin: auto;
 }
+
 .procedures-grid-item h3 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -296,9 +305,9 @@ body {
     flex-direction: center;
     justify-content: center;
     align-items: center;
-    padding-top:60px;
+    padding-top: 60px;
     padding-bottom: 100px;
-    
+
 }
 
 #slider {
@@ -306,10 +315,10 @@ body {
     max-width: 900px;
     height: 45vw;
     max-height: 500px;
-    
-    
+
+
     position: relative;
-    
+
 }
 
 #slider img {
@@ -320,8 +329,8 @@ body {
     object-fit: cover;
     object-position: 5px 30%;
     transition: opacity 900ms;
-    
-    
+
+
 }
 
 #slider img.selected {
@@ -337,6 +346,7 @@ body {
     padding-bottom: 10px;
 
 }
+
 #slider p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -377,11 +387,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-   justify-content: center;
+    justify-content: center;
     padding-top: 100px;
     padding-bottom: 100px;
-    
+
 }
+
 #foot h3 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -390,6 +401,7 @@ body {
     color: #000;
     padding: 10px;
 }
+
 #foot p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -404,7 +416,7 @@ body {
     justify-content: center;
     gap: .5rem;
     padding-block: 1.5rem;
-    
+
 }
 
 .links a {
@@ -413,7 +425,7 @@ body {
 }
 
 .links a:hover {
-    color:rgb(223, 97, 145);
+    color: rgb(223, 97, 145);
 }
 
 
@@ -425,8 +437,8 @@ body {
     align-items: center;
     justify-content: center;
     padding: 65px;
-    
-    background-color:#ede8ec;
+
+    background-color: #ede8ec;
 }
 
 
@@ -440,14 +452,16 @@ body {
     padding: 20px;
     padding-top: 50px;
     gap: 20px;
-   
+
 }
+
 .contact li {
     display: flex;
     align-items: center;
     justify-content: justify;
-    
+
 }
+
 .contact ul a {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -455,10 +469,12 @@ body {
     text-decoration: none;
     color: black;
 }
+
 .contact ul a:hover {
-    color:rgb(78, 76, 76);
+    color: rgb(78, 76, 76);
     text-decoration: underline;
 }
+
 .contact .icon-media {
     padding: 0 10px 0 10px;
 }
@@ -467,7 +483,7 @@ body {
 
 
 
-.partners{
+.partners {
     width: 70%;
     height: 100%;
     display: flex;
@@ -486,11 +502,12 @@ body {
     align-items: center;
     justify-content: center;
     padding-top: 30px;
-    
+
 }
+
 .map-wraper {
-    width:100%;
-    height:auto;
+    width: 100%;
+    height: auto;
     margin-top: 50px;
     margin-bottom: 30px;
     padding: 50px;
@@ -525,20 +542,23 @@ body {
         overflow-y: hidden;
 
     }
+
     #nav.active #menu {
         height: 100vh;
         visibility: visible;
         overflow-y: hidden;
-        position:absolute;
+        position: absolute;
     }
+
     #nav.inactive #menu {
         visibility: hidden;
     }
+
     #menu a {
         padding: 1rem 0;
         margin: 0 1rem;
-        
-        
+
+
     }
 
     #btn-mobile {
@@ -558,7 +578,9 @@ body {
         border-top: 2px solid;
         width: 20px;
     }
-    #hamburger::after, #hamburger::before {
+
+    #hamburger::after,
+    #hamburger::before {
         content: '';
         display: block;
         width: 20px;
@@ -576,6 +598,7 @@ body {
     #nav.active #hamburger::before {
         transform: rotate(135deg);
     }
+
     #nav.active #hamburger::after {
         transform: rotate(-135deg);
         top: -7px;
@@ -586,23 +609,24 @@ body {
     #banner {
         width: 100%;
         height: 100vh;
-        display: flex; 
-           
+        display: flex;
+
     }
+
     #banner .banner-content {
         width: 100%;
         height: 100%;
         display: flex;
         align-items: center;
         justify-content: left;
-        background-size: cover;
+        background-size: 100% cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
-        overflow: hidden;
+        background-position-x: 80%;
     }
 
-    
+
 
 
     #about {
@@ -610,18 +634,18 @@ body {
         height: auto;
         box-sizing: border-box;
         display: grid;
-        grid-template-columns: repeat( 2,  1fr );
+        grid-template-columns: repeat(2, 1fr);
         background-color: #ede8ec;
         padding: 20px;
-        
+
     }
 
 
-    .content-text{
+    .content-text {
         max-width: 100%;
         margin: 20px;
         padding: 20px;
-        
+
     }
 
     .content-text h1 {
@@ -629,20 +653,20 @@ body {
         font-size: 50px;
         font-weight: 600;
         color: black;
-        
-        
-        
+
+
+
     }
-    
+
     .content-text h2 {
         font-family: 'Roboto', sans-serif;
         font-size: 50px;
         font-weight: 600;
         color: black;
-            
+
     }
-    
-    
+
+
     .content-text p {
         font-family: 'Roboto', sans-serif;
         font-size: 18px;
@@ -653,14 +677,14 @@ body {
     }
 
     .img-wraper {
-        
+
         width: 400px;
-        
+
         margin: 20px;
-        
-        
+
+
     }
-    
+
     .img-wraper img {
         width: 100%;
         object-fit: cover;
@@ -694,13 +718,15 @@ body {
         overflow-y: hidden;
 
     }
+
     #nav.active #menu {
         height: 90vh;
         visibility: visible;
         overflow-y: hidden;
-        position:absolute;
-       
+        position: absolute;
+
     }
+
     #menu a {
         padding: 1rem 0;
         margin: 0 1rem;
@@ -724,7 +750,9 @@ body {
         border-top: 2px solid;
         width: 20px;
     }
-    #hamburger::after, #hamburger::before {
+
+    #hamburger::after,
+    #hamburger::before {
         content: '';
         display: block;
         width: 20px;
@@ -742,6 +770,7 @@ body {
     #nav.active #hamburger::before {
         transform: rotate(135deg);
     }
+
     #nav.active #hamburger::after {
         transform: rotate(-135deg);
         top: -7px;
@@ -751,26 +780,29 @@ body {
     #banner {
         width: 100%;
         height: 100vh;
-        display: flex; 
-           
+        display: flex;
+
     }
+
     #banner .banner-content {
         width: 100%;
         height: 100%;
         display: flex;
         align-items: center;
         justify-content: left;
-        background-size: cover;
+        background-size: 100% cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
-        /* overflow: hidden; */
+        background-position-x: 80%;
+
+
     }
 
 
-    
 
-    
+
+
 
 
     #about {
@@ -781,33 +813,33 @@ body {
         grid-template-columns: 1fr;
         background-color: #ede8ec;
         padding: 20px;
-        
-        
+
+
     }
 
-    .content-text{
+    .content-text {
         max-width: 100%;
         margin: 20px;
         padding: 20px;
-        
+
     }
 
     .content-text h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 50px;
-    font-weight: 600;
-    color: black;
-        
+        font-family: 'Roboto', sans-serif;
+        font-size: 50px;
+        font-weight: 600;
+        color: black;
+
     }
 
     .img-wraper {
-        
+
         width: 400px;
         margin: auto;
-        
-        
+
+
     }
-    
+
     .img-wraper img {
         width: 100%;
         object-fit: cover;
@@ -823,11 +855,12 @@ body {
         align-items: center;
         justify-content: center;
         padding-top: 50px;
-        
+
     }
+
     .map-wraper {
-        width:80%;
-        height:auto;
+        width: 80%;
+        height: auto;
         margin-top: 50px;
         margin-bottom: 50px;
         padding: 50px;
@@ -836,30 +869,22 @@ body {
         align-items: center;
         justify-content: center;
         border-radius: 10px;
-    
+
     }
 
-   
+
     .procedures {
         padding-block: 180px;
     }
-    
-
-    
 
 
- 
+
+
+
+
 
 
 
 
 
 }
-
-
-
-
-
-
-
-
