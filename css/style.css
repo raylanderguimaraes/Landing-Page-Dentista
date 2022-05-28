@@ -519,8 +519,184 @@ body {
 
 }
 
+/* Teste responsivo*/
+@media (max-width: 480px) {
 
 
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        top: 70px;
+        right: 0px;
+        background-color: white;
+        transition: .6s;
+        z-index: 10000;
+        visibility: hidden;
+        overflow-y: hidden;
+
+    }
+
+    #nav.active #menu {
+        height: 90vh;
+        visibility: visible;
+        overflow-y: hidden;
+        position: absolute;
+
+    }
+
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, .05);
+    }
+
+    #btn-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+        color: black;
+    }
+
+    #hamburger {
+        display: block;
+        color: rgb(78, 76, 76);
+        border-top: 2px solid;
+        width: 20px;
+    }
+
+    #hamburger::after,
+    #hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
+
+    #banner {
+        max-width: 100%;
+        height: 100vh;
+        display: flex;
+        background-attachment: fixed;
+        /* background-size: cover; */
+        background-image: url('../assets/images/banner-smartphone.jpg');
+        /* background-position: center center; */
+
+
+    }
+
+    #banner .banner-content {
+        max-width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+
+
+    }
+
+
+
+
+
+
+
+    #about {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #ede8ec;
+        padding: 20px;
+
+
+    }
+
+    .content-text {
+        max-width: 100%;
+        margin: 20px;
+        padding: 20px;
+
+    }
+
+    .content-text h2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 50px;
+        font-weight: 600;
+        color: black;
+
+    }
+
+    .img-wraper {
+
+        width: 400px;
+        margin: auto;
+
+
+    }
+
+    .img-wraper img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    }
+
+
+    #map {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+
+    }
+
+    .map-wraper {
+        width: 80%;
+        height: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 50px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+
+    }
+
+
+    .procedures {
+        padding-block: 180px;
+    }
+
+
+}
 
 
 /* Responsividade */
@@ -704,189 +880,3 @@ body {
 
 
 
-@media (max-width: 480px) {
-
-
-    #menu {
-        display: block;
-        position: absolute;
-        width: 100%;
-        height: 0px;
-        top: 70px;
-        right: 0px;
-        background-color: white;
-        transition: .6s;
-        z-index: 10000;
-        visibility: hidden;
-        overflow-y: hidden;
-
-    }
-
-    #nav.active #menu {
-        height: 90vh;
-        visibility: visible;
-        overflow-y: hidden;
-        position: absolute;
-
-    }
-
-    #menu a {
-        padding: 1rem 0;
-        margin: 0 1rem;
-        border-bottom: 2px solid rgba(0, 0, 0, .05);
-    }
-
-    #btn-mobile {
-        display: flex;
-        padding: .5rem 1rem;
-        font-size: 1rem;
-        border: none;
-        background: none;
-        cursor: pointer;
-        gap: .5rem;
-        color: black;
-    }
-
-    #hamburger {
-        display: block;
-        color: rgb(78, 76, 76);
-        border-top: 2px solid;
-        width: 20px;
-    }
-
-    #hamburger::after,
-    #hamburger::before {
-        content: '';
-        display: block;
-        width: 20px;
-        height: 2px;
-        background-color: currentColor;
-        margin-top: 5px;
-        transition: .3s;
-        position: relative;
-    }
-
-    #nav.active #hamburger {
-        border-top-color: transparent;
-    }
-
-    #nav.active #hamburger::before {
-        transform: rotate(135deg);
-    }
-
-    #nav.active #hamburger::after {
-        transform: rotate(-135deg);
-        top: -7px;
-    }
-
-
-    #banner {
-        max-width: 100%;
-        height: 100vh;
-        display: flex;
-        background-attachment: fixed;
-        /* background-size: cover; */
-        background-image: url('../assets/images/banner-smartphone.jpg');
-        /* background-position: center center; */
-
-
-    }
-
-    #banner .banner-content {
-        max-width: 100%;
-        margin: auto;
-        display: flex;
-        flex-direction: row;
-
-
-    }
-
-
-
-
-
-
-
-    #about {
-        width: 100%;
-        height: auto;
-        box-sizing: border-box;
-        display: grid;
-        grid-template-columns: 1fr;
-        background-color: #ede8ec;
-        padding: 20px;
-
-
-    }
-
-    .content-text {
-        max-width: 100%;
-        margin: 20px;
-        padding: 20px;
-
-    }
-
-    .content-text h2 {
-        font-family: 'Roboto', sans-serif;
-        font-size: 50px;
-        font-weight: 600;
-        color: black;
-
-    }
-
-    .img-wraper {
-
-        width: 400px;
-        margin: auto;
-
-
-    }
-
-    .img-wraper img {
-        width: 100%;
-        object-fit: cover;
-        border-radius: 50%;
-        box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
-    }
-
-
-    #map {
-        width: 100%;
-        height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-top: 50px;
-
-    }
-
-    .map-wraper {
-        width: 80%;
-        height: auto;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        padding: 50px;
-        background-color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 10px;
-
-    }
-
-
-    .procedures {
-        padding-block: 180px;
-    }
-
-
-
-
-
-
-
-
-
-
-
-}
