@@ -785,7 +785,8 @@ body {
     }
 
     #banner .banner-content {
-        width: 100%;
+        max-width: 100%;
+        margin: auto;
         display: flex;
         flex-direction: row;
         background-attachment: fixed;
